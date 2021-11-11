@@ -14,16 +14,27 @@ body {
 .navbar {
     background-image: linear-gradient(to right, #a517);
     padding: 0 !important;
-}
-
-.navbar-nav li {
-    border: thistle;
-    border-color: thistle;
-    border-width: 5px;
     padding: 0px;
 }
 
 .navbar-nav li a {
     color: #fff !important;
     font-weight: 600;
+}
+
+.fa-bars {
+    color: #fff;
+    font-size: 30px !important;
+}
+
+.navbar-toggler {
+    outline: none !important;
+}
+
+#aboutMe {
+    background-color: gray;
+    color: #fff;
+    padding-top: 5%;
+    border-color: mediumseagreen;
+    border-width: 2%;
 }
